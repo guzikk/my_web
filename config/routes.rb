@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'pages#welcom'
-  get '/work'=> 'page#work'
+  get '/work'=> 'pages#work'
   get '/about'=> 'pages#about'
   get '/blog' => 'pages#blog'
 
